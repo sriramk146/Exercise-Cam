@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 import time
-import PoseModule as pm
+import Pose as pm
 import tkinter
 from tkinter import *
 from PIL import Image, ImageTk
