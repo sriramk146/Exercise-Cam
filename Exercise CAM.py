@@ -34,7 +34,6 @@ def Type_of_Exercise():
         lmList = detector.findPosition(img, False)
         if len(lmList) != 0:
             #Based on conditions we set angle and distance for each exercise
-            # Left Arm
             angle = detector.findAngle(img, 11, 13, 15)
             per = np.interp(angle, (220, 280), (0, 100))
             bar = np.interp(angle, (220, 280), (650, 100))
